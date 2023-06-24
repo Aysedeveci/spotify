@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 95%;
+    height: 75px;
+}
+
+.container input[type="name"],
+.container input[type="surname"],
+.container input[type="email"],
+.container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.container input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 15px;
+}
